@@ -20,12 +20,15 @@ To run the code instantly, in the project directory, you can type in the termina
 
 The output of the __index.ts__ can be observed through __output.json__ file.
 \
+
 To transpile and run separately, there are 2 steps involved.
 \
+
 Transpile the __index.ts__ to __index.js__, type in the terminal in the project directory:
 \
 `tsc index.ts`
 \
+
 And lastly, to run the code, type in the same terminal:
 \
 `node index.js`
