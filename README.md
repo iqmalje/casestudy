@@ -27,7 +27,6 @@ To transpile and run separately, there are 2 steps involved.
 Transpile the __index.ts__ to __index.js__, type in the terminal in the project directory:
 \
 `tsc index.ts`
-\
 
 And lastly, to run the code, type in the same terminal:
 \
