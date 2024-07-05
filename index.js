@@ -1,15 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const fs_1 = require("fs");
+var fs_1 = require("fs");
 function writeToFile(outputArray) {
     // write to file output.json
     (0, fs_1.writeFileSync)("./output.json", JSON.stringify(outputArray));
 }
 function startBigBang(maxNumber) {
     // the output array
-    const outputArray = [];
+    var outputArray = [];
     // loop from 1 until 100, and for each number will be calculated
-    for (let i = 1; i <= maxNumber; i++) {
+    for (var i = 1; i <= maxNumber; i++) {
         // if number is both divisible by 3 and 5
         if (i % 3 === 0 && i % 5 === 0)
             outputArray.push("BIG BANG");
