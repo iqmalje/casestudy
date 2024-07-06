@@ -18,13 +18,11 @@ To run the code instantly, in the project directory, you can type in the termina
 \
 `npm start`
 
-The output of the __index.ts__ can be observed through __output.json__ file.
-\
+The output of the **index.ts** can be observed through **output.json** file.
 
 To transpile and run separately, there are 2 steps involved.
-\
 
-Transpile the __index.ts__ to __index.js__, type in the terminal in the project directory:
+Transpile the **index.ts** to **index.js**, type in the terminal in the project directory:
 \
 `tsc index.ts`
 
